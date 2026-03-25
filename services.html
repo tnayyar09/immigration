@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | GlobalVisa Immigration Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="top-left">
+                    <span><i class="fas fa-envelope"></i> info@globalvisa.com</span>
+                    <span><i class="fas fa-phone"></i> +91 98765 43210</span>
+                    <span><i class="fas fa-clock"></i> Mon-Sat: 9AM - 7PM</span>
+                </div>
+                <div class="top-right">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-globe-americas"></i>
+                <span>Global<strong>Visa</strong></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <a href="https://wa.me/919876543210" class="nav-cta" target="_blank">
+                <i class="fab fa-whatsapp"></i> Free Consultation
+            </a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="page-banner-bg" style="background-image: url('https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=1920')"></div>
+        <div class="page-banner-overlay"></div>
+        <div class="container">
+            <div class="page-banner-content">
+                <h1>Our <span class="gradient-text">Services</span></h1>
+                <p>Comprehensive immigration solutions for every dream and every destination</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <span>Services</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Filter Section -->
+    <section class="section services-page-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-th-large"></i> Browse Services</span>
+                <h2>Choose Your <span class="gradient-text">Immigration Path</span></h2>
+                <p>Filter by visa type or country to find the perfect service for your needs</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label><i class="fas fa-filter"></i> Filter by Type:</label>
+                    <div class="filter-buttons" id="filterButtons">
+                        <button class="filter-btn active" data-filter="all">All Services</button>
+                        <button class="filter-btn" data-filter="pr">Permanent Residency</button>
+                        <button class="filter-btn" data-filter="student">Student Visa</button>
+                        <button class="filter-btn" data-filter="work">Work Permit</button>
+                        <button class="filter-btn" data-filter="tourist">Tourist Visa</button>
+                        <button class="filter-btn" data-filter="business">Business Visa</button>
+                        <button class="filter-btn" data-filter="family">Family / Spouse</button>
+                        <button class="filter-btn" data-filter="coaching">Coaching</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="services-page-grid" id="servicesGrid">
+
+                <!-- Canada PR -->
+                <div class="sp-card" data-category="pr" data-country="canada">
+                    <div class="sp-card-img">
+                        <img src="https://images.unsplash.com/photo-1517935706615-2717063c2225?w=500" alt="Canada PR">
+                        <div class="sp-badge">Most Popular</div>
+                        <div class="sp-country-tag">🇨🇦 Canada</div>
+                    </div>
+                    <div class="sp-card-body">
+                        <div class="sp-category">Permanent Residency</div>
+                        <h3>Canada PR - Express Entry</h3>
+                        <p>Fast-track permanent residency in Canada through the Express Entry system. CRS score optimization and complete application support.</p>
+                        <div class="sp-features">
+                            <span><i class="fas fa-clock"></i> 6-12 Months</span>
+                            <span><i class="fas fa-chart-line"></i> 97% Success</span>
+                        </div>
+                        <div class="sp-card-footer">
+                            <button class="btn btn-primary btn-sm open-lightbox" data-service="Canada PR - Express Entry">
+                                <i class="fas fa-paper-plane"></i> Apply Now
+                            </button>
+                            <button class="btn btn-outline btn-sm open-lightbox" data-service="Canada PR - Express Entry">
+                                <i class="fas fa-info-circle"></i> Get Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Australia Skilled Migration -->
+                <div class="sp-card" data-category="pr" data-country="australia">
+                    <div class="sp-card-img">
+                        <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=500" alt="Australia PR">
+                        <div class="sp-country-tag">🇦🇺 Australia</div>
+                    </div>
+                    <div class="sp-card-body">
+                        <div class="sp-category">Permanent Residency</div>
+                        <h3>Australia Skilled Migration (189/190)</h3>
+                        <p>Points-based skilled migration to Australia. Subclass 189 & 190 visa processing with skills assessment assistance.</p>
+                        <div class="sp-features">
+                            <span><i class="fas fa-clock"></i> 8-14 Months</span>
+                            <span><i class="fas fa-chart-line"></i> 95% Success</span>
+                        </div>
+                        <div class="sp-card-footer">
+                            <button class="btn btn-primary btn-sm open-lightbox" data-service="Australia Skilled Migration (189/190)">
+                                <i class="fas fa-paper-plane"></i> Apply Now
+                            </button>
+                            <button class="btn btn-outline btn-sm open-lightbox" data-service="Australia Skilled Migration (189/190)">
+                                <i class="fas fa-info-circle"></i> Get Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UK Student Visa -->
+                <div class="sp-card" data-category="student" data-country="uk">
+                    <div class="sp-card-img">
+                        <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=500" alt="UK Student">
+                        <div class="sp-badge hot">Trending</div>
+                        <div class="sp-country-tag">🇬🇧 United Kingdom</div>
+                    </div>
+                    <div class="sp-card-body">
+                        <div class="sp-category">Student Visa</div>
+                        <h3>UK Student Visa (Tier 4)</h3>
+                        <p>Study at top UK universities like Oxford, Cambridge, and more. University selection, SOP, scholarship & visa support.</p>
+                        <div class="sp-features">
+                            <span><i class="fas fa-clock"></i> 4-8 Weeks</span>
+                            <span><i class="fas fa-chart-line"></i> 98% Success</span>
+                        </div>
+                        <div class="sp-card-footer">
+                            <button class="btn btn-primary btn-sm open-lightbox" data-service="UK Student Visa (Tier 4)">
+                                <i class="fas fa-paper-plane"></i> Apply Now
+                            </button>
+                            <button class="btn btn-outline btn-sm open-lightbox" data-service="UK Student Visa (Tier 4)">
+                                <i class="fas fa-info-circle"></i> Get Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Canada Student Visa -->
+                <div class="sp-card" data-category="student" data-country="canada">
+                    <div class="sp-card-img">
+                        <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=500" alt="Canada Student">
+                        <div class="sp-country-tag">🇨🇦 Canada</div>
+                    </div>
+                    <div class="sp-card-body">
+                        <div class="sp-category">Student Visa</div>
+                        <h3>Canada Student Visa (SDS / Non-SDS)</h3>
+                        <p>Study in Canada with pathway to PR. College/University admission, GIC, and complete visa documentation support.</p>
+                        <div class="sp-features">
+                            <span><i class="fas fa-clock"></i> 4-12 Weeks</span>
+                            <span><i class="fas fa-chart-line"></i> 96% Success</span>
+                        </div>
+                        <div class="sp-card-footer">
+                            <button class="btn btn-primary btn-sm open-lightbox" data-service="Canada Student Visa">
+                                <i class="fas fa-paper-plane"></i> Apply Now
+                            </button>
+                            <button class="btn btn-outline btn-sm open-lightbox" data-service="Canada Student Visa">
+                                <i class="fas fa-info-circle"></i> Get Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Germany Job Seeker -->
+                <div class="sp-card" data-category="work" data-country="germany">
+                    <div class="sp-card-img">
+                        <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=500" alt="Germany Work">
+                        <div class="sp-badge hot">New</div>
+                        <div class="sp-country-tag">🇩🇪 Germany</div>
+                    </div>
+                    <div class="sp-card-body">
+                        <div class="sp-category">Work Permit</div>
+                        <h3>Germany Job Seeker Visa</h3>
+                        <p>Get a 6-month visa to find employment in Germany. Perfect for skilled IT, engineering, and healthcare professionals.</p>
+                        <div class="sp-features">
+                            <span><i class="fas fa-clock"></i> 6-10 Weeks</span>
+                            <span><i class="fas fa-chart-line"></i> 94% Success</span>
+                        </div>
+                        <div class="sp-card-footer">
+                            <button class="btn btn-primary btn-sm open-lightbox" data-service="Germany Job Seeker Visa">
+                                <i class="fas fa-paper-plane"></i> Apply Now
+                            </button>
+                            <button class="btn btn-outline btn-sm open-lightbox" data-service="Germany Job Seeker Visa">
+                                <i class="fas fa-info-circle"></i> Get Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- USA H1B Work Visa -->
+                <div class="sp-card" data-category="work" data-country="usa">
+                    <div class="sp-card-img">
+                        <img src="https://images.unsplash.com/photo-1485738422979-f5c462d49f04?w=500" alt="USA Work">
+                        <div class="sp-country-tag">🇺🇸 USA</div>
+                    </div>
+                    <div class="sp-card-body">
+                        <div class="sp-category">Work Permit</div>
+                        <h3>USA H1B Work Visa</h3>
+                        <p>Specialty occupation work visa for the United States. Employer sponsorship guidance, petition filing, and interview preparation.</p>
+                        <div class="sp-features">
+                            <span><i class="fas fa-clock"></i> 3-6 Months</span>
+                            <span><i class="fas fa-chart-line"></i> 90% Success</span>
+                        </div>
+                        <div class="sp-card-footer">
+                            <button class="btn btn-primary btn-sm open-lightbox" data-service="USA H1B Work Visa">
+                                <i class="fas fa-paper-plane"></i> Apply Now
+                            </button>
+                            <button class="btn btn-outline btn-sm open-lightbox" data-service="USA H1B Work Visa">
+                                <i class="fas fa-info-circle"></i> Get Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Schengen Tourist Visa -->
+                <div class="sp-card" data-category="tourist" data-country="europe">
+                    <div class="sp-card-img">
+                        <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=500" alt="Europe Tourist">
+                        <div class="sp-country-tag">🇪🇺 Europe (Schengen)</div>
+                    </div>
+                    <div class="sp-card-body">
+                        <div class="sp-category">Tourist Visa</div>
+                        <h3>Schengen Tourist Visa (Europe)</h3>
+                        <p>Visit 27 European countries with a single Schengen visa. Complete documentation, itinerary planning & interview preparation.</p>
+                        <div class="sp-features">
+                            <span><i class="fas fa-clock"></i> 2-4 Weeks</span>
+                            <span><i class="fas fa-chart-line"></i> 96% Success</span>
+                        </div>
+                        <div class="sp-card-footer">
+                            <button class="btn btn-primary btn-sm open-lightbox" data-service="Schengen Tourist Visa">
+                                <i class="fas fa-paper-plane"></i> Apply Now
+                            </button>
+                            <button class="btn btn-outline btn-sm open-lightbox" data-service="Schengen Tourist Visa">
+                                <i class="fas fa-info-circle"></i> Get Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- USA Tourist Visa -->
+                <div class="sp-card" data-category="tourist" data-country="usa">
+                    <div class="sp-card-img">
+                        <img src="https://images.unsplash.com/photo-1534430480872-3498386e7856?w=500" alt="USA Tourist">
+                        <div class="sp-country-tag">🇺🇸 USA</div>
+                    </div>
+                    <div class="sp-card-body">
+                        <div class="sp-category">Tourist Visa</div>
+                        <h3>USA B1/B2 Visitor Visa</h3>
+                        <p>Business or tourist visa for the United States. DS-160 filing, interview coaching & complete documentation assistance.</p>
+                        <div class="sp-features">
+                            <span><i class="fas fa-clock"></i> 3-8 Weeks</span>
+                            <span><i class="fas fa-chart-line"></i> 92% Success</span>
+                        </div>
+                        <div class="sp-card-footer">
+                            <button class="btn btn-primary btn-sm open-lightbox" data-service="USA B1/B2 Visitor Visa">
+                                <i class="fas fa-paper-plane"></i> Apply Now
+                            </button>
+                            <button class="btn btn-outline btn-sm open-lightbox" data-service="USA B1/B2 Visitor Visa">
+                                <i class="fas fa-info-circle"></i> Get Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Business / Investor Visa -->
+                <div class="sp-card" data-category="business" data-country="canada">
+                    <div class="sp-card-img">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500" alt="Business Visa">
+                        <div class="sp-country-tag">🌍 Multiple Countries</div>
+                    </div>
+                    <div class="sp-card-body">
+                        <div class="sp-category">Business Visa</div>
+                        <h3>Investor & Entrepreneur Visa</h3>
+                        <p>Business immigration programs for Canada, USA (EB-5), UK, Australia. Start-up visa and investor programs.</p>
+                        <div class="sp-features">
+                            <span><i class="fas fa-clock"></i> 6-18 Months</span>
+                            <span><i class="fas fa-chart-line"></i> 91% Success</span>
+                        </div>
+                        <div class="sp-card-footer">
+                            <button class="btn btn-primary btn-sm open-lightbox" data-service="Investor & Entrepreneur Visa">
+                                <i class="fas fa-paper-plane"></i> Apply Now
+                            </button>
+                            <button class="btn btn-outline btn-sm open-lightbox" data-service="Investor & Entrepreneur Visa">
+                                <i class="fas fa-info-circle"></i> Get Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spouse / Family Visa -->
+                <div class="sp-card" data-category="family" data-country="multiple">
+                    <div class="sp-card-img">
+                        <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?w=500" alt="Family Visa">
+                        <div class="sp-country-tag">🌍 All Countries</div>
+                    </div>
+                    <div class="sp-card-body">
+                        <div class="sp-category">Family / Spouse Visa</div>
+                        <h3>Spouse & Family Sponsorship</h3>
+                        <p>Reunite with your family abroad. Spouse visa, dependent visa, parent sponsorship for Canada, Australia, UK & more.</p>
+                        <div class="sp-features">
+                            <span><i class="fas fa-clock"></i> 4-12 Months</span>
+                            <span><i class="fas fa-chart-line"></i> 96% Success</span>
+                        </div>
+                        <div class="sp-card-footer">
+                            <button class="btn btn-primary btn-sm open-lightbox" data-service="Spouse & Family Sponsorship">
+                                <i class="fas fa-paper-plane"></i> Apply Now
+                            </button>
+                            <button class="btn btn-outline btn-sm open-lightbox" data-service="Spouse & Family Sponsorship">
+                                <i class="fas fa-info-circle"></i> Get Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IELTS Coaching -->
+                <div class="sp-card" data-category="coaching" data-country="all">
+                    <div class="sp-card-img">
+                        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500" alt="IELTS">
+                        <div class="sp-badge">Free Demo</div>
+                        <div class="sp-country-tag">📚 Test Prep</div>
+                    </div>
+                    <div class="sp-card-body">
+                        <div class="sp-category">Coaching</div>
+                        <h3>IELTS / PTE / TOEFL Coaching</h3>
+                        <p>Expert language test preparation with certified trainers. Proven strategies for 7+ band scores. Online & offline batches available.</p>
+                        <div class="sp-features">
+                            <span><i class="fas fa-clock"></i> 4-8 Weeks</span>
+                            <span><i class="fas fa-chart-line"></i> 7+ Band Avg.</span>
+                        </div>
+                        <div class="sp-card-footer">
+                            <button class="btn btn-primary btn-sm open-lightbox" data-service="IELTS / PTE / TOEFL Coaching">
+                                <i class="fas fa-paper-plane"></i> Enroll Now
+                            </button>
+                            <button class="btn btn-outline btn-sm open-lightbox" data-service="IELTS / PTE / TOEFL Coaching">
+                                <i class="fas fa-info-circle"></i> Get Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Zealand Work Visa -->
+                <div class="sp-card" data-category="work" data-country="nz">
+                    <div class="sp-card-img">
+                        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500" alt="NZ Work">
+                        <div class="sp-country-tag">🇳🇿 New Zealand</div>
+                    </div>
+                    <div class="sp-card-body">
+                        <div class="sp-category">Work Permit</div>
+                        <h3>New Zealand Skilled Work Visa</h3>
+                        <p>Work in New Zealand with pathway to residency. Accredited employer work visa and skilled migrant category support.</p>
+                        <div class="sp-features">
+                            <span><i class="fas fa-clock"></i> 8-16 Weeks</span>
+                            <span><i class="fas fa-chart-line"></i> 93% Success</span>
+                        </div>
+                        <div class="sp-card-footer">
+                            <button class="btn btn-primary btn-sm open-lightbox" data-service="New Zealand Skilled Work Visa">
+                                <i class="fas fa-paper-plane"></i> Apply Now
+                            </button>
+                            <button class="btn btn-outline btn-sm open-lightbox" data-service="New Zealand Skilled Work Visa">
+                                <i class="fas fa-info-circle"></i> Get Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- No Results Message -->
+            <div class="no-results" id="noResults" style="display:none;">
+                <i class="fas fa-search"></i>
+                <h3>No services found</h3>
+                <p>Try selecting a different filter category</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-overlay" id="lightboxOverlay">
+        <div class="lightbox-modal">
+            <button class="lightbox-close" id="lightboxClose">&times;</button>
+            <div class="lightbox-header">
+                <div class="lightbox-icon"><i class="fas fa-paper-plane"></i></div>
+                <h3>Enquire About: <span id="lightboxServiceName"></span></h3>
+                <p>Fill the form below & we'll connect with you on WhatsApp instantly!</p>
+            </div>
+            <form id="lightboxForm" class="lightbox-form">
+                <input type="hidden" id="lbServiceHidden">
+                <div class="form-group">
+                    <label>Full Name *</label>
+                    <input type="text" id="lbName" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Phone Number *</label>
+                        <input type="tel" id="lbPhone" placeholder="+91 XXXXX XXXXX" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address *</label>
+                        <input type="email" id="lbEmail" placeholder="your@email.com" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Preferred Country *</label>
+                        <select id="lbCountry" required>
+                            <option value="">Select Country</option>
+                            <option>Canada</option>
+                            <option>Australia</option>
+                            <option>United Kingdom</option>
+                            <option>United States</option>
+                            <option>Germany</option>
+                            <option>New Zealand</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Highest Education *</label>
+                        <select id="lbEducation" required>
+                            <option value="">Select Education</option>
+                            <option>High School (12th)</option>
+                            <option>Diploma</option>
+                            <option>Bachelor's Degree</option>
+                            <option>Master's Degree</option>
+                            <option>PhD / Doctorate</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Work Experience</label>
+                        <select id="lbExperience">
+                            <option value="">Select Experience</option>
+                            <option>Fresher (0 Years)</option>
+                            <option>1-3 Years</option>
+                            <option>3-5 Years</option>
+                            <option>5-10 Years</option>
+                            <option>10+ Years</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>IELTS / PTE Score</label>
+                        <input type="text" id="lbIelts" placeholder="e.g., IELTS 7.0 / PTE 65">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Your Message / Query</label>
+                    <textarea id="lbMessage" rows="3" placeholder="Tell us about your immigration goals..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block btn-lg">
+                    <i class="fab fa-whatsapp"></i> Submit & Connect on WhatsApp
+                </button>
+                <p class="form-note"><i class="fas fa-lock"></i> Your information is 100% secure and confidential</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Can't Find What You're Looking For?</h2>
+                <p>We offer 50+ immigration services. Contact us for any custom requirement or unique immigration scenario.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/919876543210?text=Hi! I need help with immigration services." class="btn btn-white btn-lg" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                    <a href="contact.html" class="btn btn-outline-white btn-lg">
+                        <i class="fas fa-phone"></i> Call Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <div class="footer-logo"><i class="fas fa-globe-americas"></i><span>Global<strong>Visa</strong></span></div>
+                        <p>Your trusted immigration partner since 2009.</p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> PR Visa</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Student Visa</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Work Permit</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Tourist Visa</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contact</h4>
+                        <div class="footer-contact">
+                            <div class="fc-item"><i class="fas fa-phone"></i><span>+91 98765 43210</span></div>
+                            <div class="fc-item"><i class="fas fa-envelope"></i><span>info@globalvisa.com</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 GlobalVisa Immigration Services. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i><span>Chat with us!</span>
+    </a>
+    <button class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
